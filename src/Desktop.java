@@ -18,6 +18,6 @@ public class Desktop extends Computer{
 
     public void show(){
         super.show();
-        System.out.printf("%10s\n", getComputerCase());
+        System.out.printf("%18s\n", getComputerCase());
     }
 }

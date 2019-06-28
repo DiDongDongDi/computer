@@ -84,6 +84,6 @@ public class NoteBook extends Computer {
     @Override
     public void show() {
         super.show();
-        System.out.printf("%-10s\n", getBattery());
+        System.out.printf("   %-10s\n", getBattery());
     }
 }

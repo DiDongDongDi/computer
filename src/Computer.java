@@ -61,6 +61,6 @@ public abstract class Computer{
 		return monitor;
 	}
 	public void show(){
-		System.out.printf("%-10s%-10s%-10s%-10s%-10s%-10s", getName(), getBrand(), getCpu(), getMemory(), getHardDisk(), getMonitor());
+		System.out.printf("%-10s     %-10s %-10s %-10s %-10s %-10s", getName(), getBrand(), getCpu(), getMemory(), getHardDisk(), getMonitor());
 	}
 }
