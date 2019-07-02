@@ -14,6 +14,7 @@ public class Main{
 		Scanner sc=new Scanner(System.in);
 		int op;
 		while(true){
+			System.out.println("hwt试一试能不能修改这个项目")
 			System.out.println("请用户选择操作: 1: 查看电脑信息 2: 增加电脑信息 3: 删除电脑信息 4: 退出");
 			op=sc.nextInt();
 			switch(op){
